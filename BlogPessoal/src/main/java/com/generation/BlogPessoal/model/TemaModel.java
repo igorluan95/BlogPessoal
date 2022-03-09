@@ -30,7 +30,7 @@ public class TemaModel {
 	@JsonIgnoreProperties("tema")
 	private List<PostagemModel> postagem;
 	
-	public TemaModel(Long id, String descricao) {
+	public TemaModel(long id, String descricao) {
 		this.id = id;
 		this.descricao = descricao;
 	}
